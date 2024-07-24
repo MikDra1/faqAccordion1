@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.absoluteBox {
+  @apply absolute top-32 left-[50%];
+  transform: translateX(-50%);
+}
+
+.faq {
+  @apply flex items-center gap-2  pt-4 relative cursor-pointer;
+}
+
+.faq-p {
+  @apply mt-4 md:w-[90%] text-grayishPurple;
+}
